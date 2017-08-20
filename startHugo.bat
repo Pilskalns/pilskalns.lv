@@ -1,0 +1,1 @@
+hugo server -D -w -b http://localhost --bind 0.0.0.0

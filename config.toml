@@ -54,12 +54,12 @@ preserveTaxonomyNames = true
 
 [[menu.main]]
   name = "Home"
-  weight = 0
+  weight = 10
   url = "/"
 
   [[menu.main]]
   name = "Repo"
-  weight = -70
+  weight = 100
   identifier = "repository"
   url = "https://github.com/Pilskalns/pilskalns.lv"
 
