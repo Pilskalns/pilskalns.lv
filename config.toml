@@ -1,0 +1,74 @@
+baseURL = "https://pilskalns.lv"
+title = "Pilskalns.lv"
+copyright = ""
+
+theme = "minimo"
+
+disqusShortname = ""
+googleAnalytics = ""
+Paginate = 5
+
+preserveTaxonomyNames = true
+
+[params]
+  description = "IT MacGyver"
+  dateFormat = "2006-01-02"
+  copyrightOwner = "Andžs Pilskalns"
+  copyrightStartYear = "2017"
+  favicon = "favicon.ico"
+  hideEntryNavigation = false
+  customCSS = ["css/custom.css"]
+  customJS = ["js/custom.js"]
+  hideSocialMenu = false
+  showReadTime = true
+
+[params.seo]
+  # Title Separator: - – — · • * ⋆ | ~ « » < >
+  titleSeparator = "|"
+
+[params.opengraph]
+  [params.opengraph.facebook]
+    admins = ""
+    appid = ""
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[social]
+  facebook = ""
+
+# [author]
+  # name = "Minimo"
+
+[author.social]
+  # codepen = "MunifTanjim"
+  email = "andzs@pilskalns.lv"
+  facebook = "andzs.pilskalns"
+  github = "Pilskalns"
+  # instagram = "instagram"
+  twitter = "Pilskalns"
+
+[permalinks]
+  page = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  weight = 0
+  url = "/"
+
+  [[menu.main]]
+  name = "Repo"
+  weight = -70
+  identifier = "repository"
+  url = "https://github.com/Pilskalns/pilskalns.lv"
+
+# Language Configuration
+defaultContentLanguage = "en"
+
+[languages]
+  # edit this block for your own language
+  [languages.en]
+    lang = "en"
+    languageName = "English"
+    weight = 1
